@@ -20,6 +20,7 @@
 		338B7333215A7A000013E1DA /* MilkyWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7332215A7A000013E1DA /* MilkyWay.swift */; };
 		338B7336215A7A5F0013E1DA /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7335215A7A5F0013E1DA /* Results.swift */; };
 		338B7338215A84220013E1DA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7337215A84220013E1DA /* APIManager.swift */; };
+		338B733A215A97E90013E1DA /* OpeningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7339215A97E90013E1DA /* OpeningViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		338B7332215A7A000013E1DA /* MilkyWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWay.swift; sourceTree = "<group>"; };
 		338B7335215A7A5F0013E1DA /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		338B7337215A84220013E1DA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		338B7339215A97E90013E1DA /* OpeningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				338B72FC215A6E3A0013E1DA /* OpeningView.swift */,
+				338B7339215A97E90013E1DA /* OpeningViewModel.swift */,
 				338B72FE215A6E3A0013E1DA /* Main.storyboard */,
 				338B7329215A705A0013E1DA /* CollectionViewCell */,
 			);
@@ -323,6 +326,7 @@
 				338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */,
 				338B7333215A7A000013E1DA /* MilkyWay.swift in Sources */,
 				338B7330215A77110013E1DA /* DataSource.swift in Sources */,
+				338B733A215A97E90013E1DA /* OpeningViewModel.swift in Sources */,
 				338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */,
 				338B7338215A84220013E1DA /* APIManager.swift in Sources */,
 			);
