@@ -8,26 +8,25 @@
 
 import Foundation
 
-struct Collection: Decodable {
+struct ResponseData: Decodable {
     var collection: Items
-    
 }
 
 struct Items: Decodable {
-    var items: [MilkyWay]
-    
+    var items: [MilkyWayData]
+
 }
 
-struct MilkyWay: Decodable {
-    var href: String
-    var data: [MilkyWay]
+struct MilkyWayData: Decodable {
+    var href: String 
+    var data: [MilkyWayInfo]
     var links: [Links]
     
 }
 
-struct MilkyWayData: Decodable {
+struct MilkyWayInfo: Decodable {
     var title: String
-    var centre: String
+    var center: String
     var date_created: String
     
 }

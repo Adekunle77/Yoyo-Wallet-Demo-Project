@@ -20,5 +20,10 @@ class OpeningViewCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     
+    // MARK: Methods
+    func updateCell(with milkyWayData: MilkyWayInfo) {
+        centreName.text = milkyWayData.center
+        launchDate.text = milkyWayData.date_created
+    }
 }
 

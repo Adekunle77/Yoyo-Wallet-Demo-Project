@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias DataSourceCompletionHandler = (_ results: Results<[MilkyWay], DataSourceError>) -> Void
+typealias DataSourceCompletionHandler = (_ results: Results<[MilkyWayData], DataSourceError>) -> Void
 
 enum DataSourceError: Error {
     case fatel(String)

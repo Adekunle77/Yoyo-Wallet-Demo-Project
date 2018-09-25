@@ -35,13 +35,15 @@ class APIManager: API {
             }
             
             do {
-                let milkyWayData = try JSONDecoder().decode(Collection.self, from: data)
-                let milkyWayJSON = milkyWayData.collection.items
+                let milkyWayData = try JSONDecoder().decode(ResponseData.self, from: data)
+                let milkyWayParsedJSON = milkyWayData.collection.items
                 DispatchQueue.main.async {
-                    completion(Results.success(milkyWayJSON))
+                    completion(Results.success(milkyWayParsedJSON))
                 }
             } catch {
-                
+                DispatchQueue.main.async {
+                    completion(Results.failure(DataSourceError.dataError(error)))
+                }
             }
         }
         session.resume()
