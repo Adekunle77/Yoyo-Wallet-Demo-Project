@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B72FA215A6E3A0013E1DA /* AppDelegate.swift */; };
+		338B72FD215A6E3A0013E1DA /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B72FC215A6E3A0013E1DA /* OpeningView.swift */; };
+		338B7300215A6E3A0013E1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B72FE215A6E3A0013E1DA /* Main.storyboard */; };
+		338B7302215A6E3A0013E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338B7301215A6E3A0013E1DA /* Assets.xcassets */; };
+		338B7305215A6E3A0013E1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B7303215A6E3A0013E1DA /* LaunchScreen.storyboard */; };
+		338B7310215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B730F215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift */; };
+		338B731B215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B731A215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift */; };
+		338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */; };
+		338B732D215A708F0013E1DA /* OpeningViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		338B730C215A6E3A0013E1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 338B72EF215A6E3A0013E1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338B72F6215A6E3A0013E1DA;
+			remoteInfo = YoyoWalletDemoProject;
+		};
+		338B7317215A6E3A0013E1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 338B72EF215A6E3A0013E1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338B72F6215A6E3A0013E1DA;
+			remoteInfo = YoyoWalletDemoProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoyoWalletDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		338B72FA215A6E3A0013E1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		338B72FC215A6E3A0013E1DA /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		338B72FF215A6E3A0013E1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		338B7301215A6E3A0013E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338B7304215A6E3A0013E1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		338B7306215A6E3A0013E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338B730B215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoyoWalletDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		338B730F215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoyoWalletDemoProjectTests.swift; sourceTree = "<group>"; };
+		338B7311215A6E3A0013E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338B7316215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoyoWalletDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		338B731A215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoyoWalletDemoProjectUITests.swift; sourceTree = "<group>"; };
+		338B731C215A6E3A0013E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpeningViewCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338B72F4215A6E3A0013E1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338B7308215A6E3A0013E1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338B7313215A6E3A0013E1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338B72EE215A6E3A0013E1DA = {
+			isa = PBXGroup;
+			children = (
+				338B72F9215A6E3A0013E1DA /* YoyoWalletDemoProject */,
+				338B7328215A70010013E1DA /* Supporting Files */,
+				338B730E215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */,
+				338B7319215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */,
+				338B72F8215A6E3A0013E1DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		338B72F8215A6E3A0013E1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */,
+				338B730B215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.xctest */,
+				338B7316215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		338B72F9215A6E3A0013E1DA /* YoyoWalletDemoProject */ = {
+			isa = PBXGroup;
+			children = (
+				338B72FC215A6E3A0013E1DA /* OpeningView.swift */,
+				338B72FE215A6E3A0013E1DA /* Main.storyboard */,
+				338B7329215A705A0013E1DA /* CollectionViewCell */,
+			);
+			path = YoyoWalletDemoProject;
+			sourceTree = "<group>";
+		};
+		338B730E215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				338B730F215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift */,
+				338B7311215A6E3A0013E1DA /* Info.plist */,
+			);
+			path = YoyoWalletDemoProjectTests;
+			sourceTree = "<group>";
+		};
+		338B7319215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				338B731A215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift */,
+				338B731C215A6E3A0013E1DA /* Info.plist */,
+			);
+			path = YoyoWalletDemoProjectUITests;
+			sourceTree = "<group>";
+		};
+		338B7328215A70010013E1DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				338B7303215A6E3A0013E1DA /* LaunchScreen.storyboard */,
+				338B72FA215A6E3A0013E1DA /* AppDelegate.swift */,
+				338B7306215A6E3A0013E1DA /* Info.plist */,
+				338B7301215A6E3A0013E1DA /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		338B7329215A705A0013E1DA /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */,
+				338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338B731F215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProject" */;
+			buildPhases = (
+				338B72F3215A6E3A0013E1DA /* Sources */,
+				338B72F4215A6E3A0013E1DA /* Frameworks */,
+				338B72F5215A6E3A0013E1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoyoWalletDemoProject;
+			productName = YoyoWalletDemoProject;
+			productReference = 338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		338B730A215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338B7322215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectTests" */;
+			buildPhases = (
+				338B7307215A6E3A0013E1DA /* Sources */,
+				338B7308215A6E3A0013E1DA /* Frameworks */,
+				338B7309215A6E3A0013E1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338B730D215A6E3A0013E1DA /* PBXTargetDependency */,
+			);
+			name = YoyoWalletDemoProjectTests;
+			productName = YoyoWalletDemoProjectTests;
+			productReference = 338B730B215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		338B7315215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338B7325215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectUITests" */;
+			buildPhases = (
+				338B7312215A6E3A0013E1DA /* Sources */,
+				338B7313215A6E3A0013E1DA /* Frameworks */,
+				338B7314215A6E3A0013E1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338B7318215A6E3A0013E1DA /* PBXTargetDependency */,
+			);
+			name = YoyoWalletDemoProjectUITests;
+			productName = YoyoWalletDemoProjectUITests;
+			productReference = 338B7316215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		338B72EF215A6E3A0013E1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AKA;
+				TargetAttributes = {
+					338B72F6215A6E3A0013E1DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					338B730A215A6E3A0013E1DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 338B72F6215A6E3A0013E1DA;
+					};
+					338B7315215A6E3A0013E1DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 338B72F6215A6E3A0013E1DA;
+					};
+				};
+			};
+			buildConfigurationList = 338B72F2215A6E3A0013E1DA /* Build configuration list for PBXProject "YoyoWalletDemoProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 338B72EE215A6E3A0013E1DA;
+			productRefGroup = 338B72F8215A6E3A0013E1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */,
+				338B730A215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */,
+				338B7315215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		338B72F5215A6E3A0013E1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338B732D215A708F0013E1DA /* OpeningViewCollectionViewCell.xib in Resources */,
+				338B7305215A6E3A0013E1DA /* LaunchScreen.storyboard in Resources */,
+				338B7302215A6E3A0013E1DA /* Assets.xcassets in Resources */,
+				338B7300215A6E3A0013E1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338B7309215A6E3A0013E1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338B7314215A6E3A0013E1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338B72F3215A6E3A0013E1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338B72FD215A6E3A0013E1DA /* OpeningView.swift in Sources */,
+				338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */,
+				338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338B7307215A6E3A0013E1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338B7310215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338B7312215A6E3A0013E1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338B731B215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		338B730D215A6E3A0013E1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */;
+			targetProxy = 338B730C215A6E3A0013E1DA /* PBXContainerItemProxy */;
+		};
+		338B7318215A6E3A0013E1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */;
+			targetProxy = 338B7317215A6E3A0013E1DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		338B72FE215A6E3A0013E1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338B72FF215A6E3A0013E1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		338B7303215A6E3A0013E1DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338B7304215A6E3A0013E1DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		338B731D215A6E3A0013E1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		338B731E215A6E3A0013E1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		338B7320215A6E3A0013E1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7VRVBX4U9;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		338B7321215A6E3A0013E1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7VRVBX4U9;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		338B7323215A6E3A0013E1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7VRVBX4U9;
+				INFOPLIST_FILE = YoyoWalletDemoProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoyoWalletDemoProject.app/YoyoWalletDemoProject";
+			};
+			name = Debug;
+		};
+		338B7324215A6E3A0013E1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7VRVBX4U9;
+				INFOPLIST_FILE = YoyoWalletDemoProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoyoWalletDemoProject.app/YoyoWalletDemoProject";
+			};
+			name = Release;
+		};
+		338B7326215A6E3A0013E1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7VRVBX4U9;
+				INFOPLIST_FILE = YoyoWalletDemoProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoyoWalletDemoProject;
+			};
+			name = Debug;
+		};
+		338B7327215A6E3A0013E1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7VRVBX4U9;
+				INFOPLIST_FILE = YoyoWalletDemoProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoyoWalletDemoProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338B72F2215A6E3A0013E1DA /* Build configuration list for PBXProject "YoyoWalletDemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338B731D215A6E3A0013E1DA /* Debug */,
+				338B731E215A6E3A0013E1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338B731F215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338B7320215A6E3A0013E1DA /* Debug */,
+				338B7321215A6E3A0013E1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338B7322215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338B7323215A6E3A0013E1DA /* Debug */,
+				338B7324215A6E3A0013E1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338B7325215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338B7326215A6E3A0013E1DA /* Debug */,
+				338B7327215A6E3A0013E1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 338B72EF215A6E3A0013E1DA /* Project object */;
+}
