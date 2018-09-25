@@ -16,6 +16,10 @@
 		338B731B215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B731A215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift */; };
 		338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */; };
 		338B732D215A708F0013E1DA /* OpeningViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */; };
+		338B7330215A77110013E1DA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B732F215A77110013E1DA /* DataSource.swift */; };
+		338B7333215A7A000013E1DA /* MilkyWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7332215A7A000013E1DA /* MilkyWay.swift */; };
+		338B7336215A7A5F0013E1DA /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7335215A7A5F0013E1DA /* Results.swift */; };
+		338B7338215A84220013E1DA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7337215A84220013E1DA /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		338B731C215A6E3A0013E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpeningViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		338B732F215A77110013E1DA /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		338B7332215A7A000013E1DA /* MilkyWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkyWay.swift; sourceTree = "<group>"; };
+		338B7335215A7A5F0013E1DA /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		338B7337215A84220013E1DA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				338B72F9215A6E3A0013E1DA /* YoyoWalletDemoProject */,
+				338B7334215A7A420013E1DA /* Helpers */,
+				338B7331215A79E50013E1DA /* Entities */,
+				338B732E215A765C0013E1DA /* Services */,
 				338B7328215A70010013E1DA /* Supporting Files */,
 				338B730E215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */,
 				338B7319215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */,
@@ -145,6 +156,31 @@
 				338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */,
 			);
 			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		338B732E215A765C0013E1DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				338B732F215A77110013E1DA /* DataSource.swift */,
+				338B7337215A84220013E1DA /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		338B7331215A79E50013E1DA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				338B7332215A7A000013E1DA /* MilkyWay.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		338B7334215A7A420013E1DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				338B7335215A7A5F0013E1DA /* Results.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338B7336215A7A5F0013E1DA /* Results.swift in Sources */,
 				338B72FD215A6E3A0013E1DA /* OpeningView.swift in Sources */,
 				338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */,
+				338B7333215A7A000013E1DA /* MilkyWay.swift in Sources */,
+				338B7330215A77110013E1DA /* DataSource.swift in Sources */,
 				338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */,
+				338B7338215A84220013E1DA /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
