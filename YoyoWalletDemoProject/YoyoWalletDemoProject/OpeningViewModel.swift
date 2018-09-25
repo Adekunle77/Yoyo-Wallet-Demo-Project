@@ -16,7 +16,7 @@ protocol ViewModelDelegate: class {
 class OpeningViewViewModel {
     
     // MARK: Properties
-    var milkyWayInfo = [MilkyWay]()
+    var arrayOfMilkyWayInfo = [MilkyWayData]()
     
     weak var delegate: ViewModelDelegate?
     let dataSource: API
@@ -27,16 +27,16 @@ class OpeningViewViewModel {
     }
     
     func fatchMilkyWayData() {
+        
         dataSource.fetchMilkyWayData {[weak self] (result) in
             switch result {
                 case .failure(let error):
                     self?.delegate?.modelDidUpdateWithError(error: error)
                     return
                 case .success(let milkyWayData):
-                    self?.milkyWayInfo = milkyWayData
+                    self?.arrayOfMilkyWayInfo = milkyWayData
                     self?.delegate?.modelDidUpdateData()
             }
-            
         }
     }
     

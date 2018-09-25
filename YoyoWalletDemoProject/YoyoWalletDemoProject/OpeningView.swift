@@ -13,19 +13,42 @@ class OpeningView: UIViewController {
     // MARK: Properties
     @IBOutlet private weak var collectionView: UICollectionView!
     fileprivate var reuseIdentifier = "cell"
+    private var viewModel: OpeningViewViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionViewSetUp()
+        viewModelSetUp()
         
     }
     
-    // MARK: Set up
+    // MARK: SetUp
+    func viewModelSetUp() {
+        let dataSource = APIManager()
+        viewModel = OpeningViewViewModel(dataSource: dataSource)
+        viewModel.delegate = self
+        viewModel.fatchMilkyWayData()
+    }
+    
     func collectionViewSetUp() {
         let nib = UINib(nibName: "OpeningViewCollectionViewCell", bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: reuseIdentifier)
     }
 }
+
+    // MARK: OpeningView 
+extension OpeningView: ViewModelDelegate {
+    func modelDidUpdateData() {
+        self.collectionView.reloadData()
+    }
+    
+    func modelDidUpdateWithError(error: Error) {
+        print("Error")
+    }
+    
+    
+}
+
 
     // MARK: CollectionView Extension
 extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -35,7 +58,7 @@ extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UIC
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        return viewModel.arrayOfMilkyWayInfo.count
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -47,7 +70,17 @@ extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UIC
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! OpeningViewCollectionViewCell
-        
+
+        let updateCell = updateCells(with: indexPath)
+        cell.updateCell(with: updateCell)
+
         return cell
+    }
+    
+    func updateCells(with: IndexPath) -> MilkyWayInfo {
+        let milkyWayInfoFromAPI = viewModel.arrayOfMilkyWayInfo[with.item]
+        let milkyWayInfos = milkyWayInfoFromAPI.data
+        let milkywayInfo = milkyWayInfos[0]
+        return milkywayInfo
     }
 }
