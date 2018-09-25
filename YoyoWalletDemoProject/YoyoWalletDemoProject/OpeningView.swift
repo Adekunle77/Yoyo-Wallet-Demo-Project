@@ -27,7 +27,7 @@ class OpeningView: UIViewController {
     }
 }
 
-// MARK: CollectionView Extension
+    // MARK: CollectionView Extension
 extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

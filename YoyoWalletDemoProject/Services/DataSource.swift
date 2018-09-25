@@ -10,7 +10,6 @@ import Foundation
 
 typealias DataSourceCompletionHandler = (_ results: Results<[MilkyWay], DataSourceError>) -> Void
 
-
 enum DataSourceError: Error {
     case fatel(String)
     case network(Error)
@@ -22,4 +21,5 @@ enum DataSourceError: Error {
 
 protocol API {
     func fetchMilkyWayData(completion: @escaping DataSourceCompletionHandler)
+    
 }

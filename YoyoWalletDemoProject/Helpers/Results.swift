@@ -11,4 +11,5 @@ import Foundation
 enum Results<DataType, ErrorType: Error> {
     case success(DataType)
     case failure(ErrorType)
+    
 }

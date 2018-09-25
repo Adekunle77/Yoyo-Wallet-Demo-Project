@@ -10,15 +10,19 @@ import Foundation
 
 struct Collection: Decodable {
     var collection: Items
+    
 }
 
 struct Items: Decodable {
     var items: [MilkyWay]
+    
 }
+
 struct MilkyWay: Decodable {
     var href: String
     var data: [MilkyWay]
     var links: [Links]
+    
 }
 
 struct MilkyWayData: Decodable {
@@ -32,4 +36,5 @@ struct Links: Decodable {
     var render: String
     var rel: String
     var href: String
+    
 }
