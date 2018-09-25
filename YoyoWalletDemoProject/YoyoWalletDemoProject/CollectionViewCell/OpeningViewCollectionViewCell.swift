@@ -25,5 +25,8 @@ class OpeningViewCollectionViewCell: UICollectionViewCell {
         centreName.text = milkyWayData.center
         launchDate.text = milkyWayData.date_created
     }
+    
+    func updateCellBackgdImage(with imageURL: Links) {
+        backgdImage.downloadImage(from: imageURL.href)
+    }
 }
-
