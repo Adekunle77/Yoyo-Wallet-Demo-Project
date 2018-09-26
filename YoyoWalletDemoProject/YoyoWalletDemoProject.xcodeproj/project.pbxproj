@@ -21,8 +21,7 @@
 		338B7336215A7A5F0013E1DA /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7335215A7A5F0013E1DA /* Results.swift */; };
 		338B7338215A84220013E1DA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7337215A84220013E1DA /* APIManager.swift */; };
 		338B733A215A97E90013E1DA /* OpeningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7339215A97E90013E1DA /* OpeningViewModel.swift */; };
-		338B733C215AC9F10013E1DA /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B733B215AC9F10013E1DA /* ImageExtension.swift */; };
-		338B733E215AE41A0013E1DA /* ImageExtensionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B733D215AE41A0013E1DA /* ImageExtensionTwo.swift */; };
+		338B7344215B71990013E1DA /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7343215B71990013E1DA /* ImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +62,7 @@
 		338B7335215A7A5F0013E1DA /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		338B7337215A84220013E1DA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		338B7339215A97E90013E1DA /* OpeningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewModel.swift; sourceTree = "<group>"; };
-		338B733B215AC9F10013E1DA /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
-		338B733D215AE41A0013E1DA /* ImageExtensionTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExtensionTwo.swift; path = "../../../Marvel-Project/MarvelCharactersDescription/MarvelCharactersDescription/Helpers/ImageExtensionTwo.swift"; sourceTree = "<group>"; };
+		338B7343215B71990013E1DA /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,8 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				338B7335215A7A5F0013E1DA /* Results.swift */,
-				338B733D215AE41A0013E1DA /* ImageExtensionTwo.swift */,
-				338B733B215AC9F10013E1DA /* ImageExtension.swift */,
+				338B7343215B71990013E1DA /* ImageExtension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -327,15 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338B733E215AE41A0013E1DA /* ImageExtensionTwo.swift in Sources */,
 				338B7336215A7A5F0013E1DA /* Results.swift in Sources */,
 				338B72FD215A6E3A0013E1DA /* OpeningView.swift in Sources */,
 				338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */,
+				338B7344215B71990013E1DA /* ImageExtension.swift in Sources */,
 				338B7333215A7A000013E1DA /* MilkyWay.swift in Sources */,
 				338B7330215A77110013E1DA /* DataSource.swift in Sources */,
 				338B733A215A97E90013E1DA /* OpeningViewModel.swift in Sources */,
 				338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */,
-				338B733C215AC9F10013E1DA /* ImageExtension.swift in Sources */,
 				338B7338215A84220013E1DA /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

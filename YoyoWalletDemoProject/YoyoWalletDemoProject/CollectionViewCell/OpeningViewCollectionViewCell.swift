@@ -11,6 +11,7 @@ import UIKit
 class OpeningViewCollectionViewCell: UICollectionViewCell {
 
     // MARK: Properties
+    @IBOutlet private weak var title: UILabel!
     @IBOutlet private weak var backgdImage: UIImageView!
     @IBOutlet private weak var centreName: UILabel!
     @IBOutlet weak var launchDate: UILabel!
@@ -21,12 +22,14 @@ class OpeningViewCollectionViewCell: UICollectionViewCell {
     }
     
     // MARK: Methods
-    func updateCell(with milkyWayData: MilkyWayInfo) {
-        centreName.text = milkyWayData.center
-        launchDate.text = milkyWayData.date_created
+    func updateCell(with milkyWaydataFrom: MilkyWayInfo) {
+        centreName.text = milkyWaydataFrom.center
+        launchDate.text = milkyWaydataFrom.date_created
+        title.text = milkyWaydataFrom.title
     }
     
     func updateCellBackgdImage(with imageURL: Links) {
-        backgdImage.downloadImage(from: imageURL.href)
+        let url = imageURL.href
+        backgdImage.downloadImage(from: url)
     }
 }
