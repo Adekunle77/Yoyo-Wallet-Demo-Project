@@ -73,6 +73,11 @@ extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UIC
 
         let updateCell = updateCells(with: indexPath)
         cell.updateCell(with: updateCell)
+        
+        let updateCellBackgdImage = updateCellsBacKGdImage(with: indexPath)
+        print(updateCellBackgdImage.href)
+        cell.updateCellBackgdImage(with: updateCellBackgdImage)
+        
 
         return cell
     }
@@ -82,5 +87,12 @@ extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UIC
         let milkyWayInfos = milkyWayInfoFromAPI.data
         let milkywayInfo = milkyWayInfos[0]
         return milkywayInfo
+    }
+    
+    func updateCellsBacKGdImage(with: IndexPath) -> Links {
+        let milkyWayImageFromAPI = viewModel.arrayOfMilkyWayInfo[with.item]
+        let milkyWayImage = milkyWayImageFromAPI.links
+        
+        return milkyWayImage[0]
     }
 }
