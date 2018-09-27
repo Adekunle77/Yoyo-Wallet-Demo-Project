@@ -11,7 +11,7 @@ import UIKit
 final class OpeningViewController: UIViewController {
     
     // MARK: Properties
-    @IBOutlet private weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionView: UICollectionView!
     fileprivate var reuseIdentifier = "cell"
     private var viewModel: OpeningViewViewModel!
     
@@ -33,7 +33,7 @@ final class OpeningViewController: UIViewController {
     func collectionViewSetUp() {
         let nib = UINib(nibName: "OpeningViewCollectionViewCell", bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: reuseIdentifier)
-//        self.navigationController?.navigationBar.alpha = 0
+
     }
 }
 
@@ -47,17 +47,18 @@ extension OpeningViewController: ViewModelDelegate {
         print("Error")
     }
     
-    
 }
 
     // MARK: CollectionView Extension
 extension OpeningViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
+        
         return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
         return viewModel.arrayOfMilkyWayInfo.count
     }
     
@@ -82,12 +83,10 @@ extension OpeningViewController: UICollectionViewDelegate, UICollectionViewDataS
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let milkyWay = viewModel.arrayOfMilkyWayInfo[indexPath.item]
-       
         presentDetailView(withID: milkyWay)
     }
     
     func presentDetailView(withID: MilkyWayData) {
-        
         self.performSegue(withIdentifier: "detailViewSegue", sender: withID)
     }
     
@@ -104,10 +103,10 @@ extension OpeningViewController: UICollectionViewDelegate, UICollectionViewDataS
         
         return milkyWayImage[0]
     }
+    
 }
 
 //MARK: Extension for seague
-
 extension OpeningViewController {
     override func prepare(for segue: UIStoryboardSegue, sender anyObject: Any?) {
         if let milkyWayDetails = segue.destination as? DetailViewController,

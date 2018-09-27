@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3331C7B2215D030200801917 /* OpeningViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3331C7B1215D030200801917 /* OpeningViewControllerTests.swift */; };
 		337C3D40215CBE6D00DF8A01 /* OpeningViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C3D3F215CBE6D00DF8A01 /* OpeningViewModelTest.swift */; };
 		337C3D42215CC1EF00DF8A01 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C3D41215CC1EF00DF8A01 /* MockAPI.swift */; };
 		338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B72FA215A6E3A0013E1DA /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3331C7B1215D030200801917 /* OpeningViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewControllerTests.swift; sourceTree = "<group>"; };
 		337C3D3F215CBE6D00DF8A01 /* OpeningViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewModelTest.swift; sourceTree = "<group>"; };
 		337C3D41215CC1EF00DF8A01 /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
 		338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoyoWalletDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				337C3D3F215CBE6D00DF8A01 /* OpeningViewModelTest.swift */,
+				3331C7B1215D030200801917 /* OpeningViewControllerTests.swift */,
 				337C3D41215CC1EF00DF8A01 /* MockAPI.swift */,
 				338B730F215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift */,
 				338B7311215A6E3A0013E1DA /* Info.plist */,
@@ -360,6 +363,7 @@
 			files = (
 				338B7310215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift in Sources */,
 				337C3D42215CC1EF00DF8A01 /* MockAPI.swift in Sources */,
+				3331C7B2215D030200801917 /* OpeningViewControllerTests.swift in Sources */,
 				337C3D40215CBE6D00DF8A01 /* OpeningViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
