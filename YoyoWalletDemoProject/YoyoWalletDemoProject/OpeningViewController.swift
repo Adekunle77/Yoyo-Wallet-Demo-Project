@@ -44,7 +44,8 @@ extension OpeningViewController: ViewModelDelegate {
     }
     
     func modelDidUpdateWithError(error: Error) {
-        print("Error")
+        let errorMessage = error.localizedDescription
+        presentAlert(title: "Sorry There is a Network Error!", message: errorMessage)
     }
     
     

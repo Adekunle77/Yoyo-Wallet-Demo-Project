@@ -34,7 +34,8 @@ class DetailViewController: UIViewController {
         
         milkyWayTitle.text = infoForProperties.title
         center.text = infoForProperties.center
-        dateCreated.text = infoForProperties.date_created
+        let date = String(infoForProperties.date_created.prefix(10))
+        dateCreated.text = date
         descriptionTextView.text = infoForProperties.description
     }
     

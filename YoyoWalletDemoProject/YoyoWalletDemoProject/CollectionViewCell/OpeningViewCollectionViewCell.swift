@@ -24,7 +24,8 @@ class OpeningViewCollectionViewCell: UICollectionViewCell {
     // MARK: Methods
     func updateCell(with milkyWaydataFrom: MilkyWayInfo) {
         centreName.text = milkyWaydataFrom.center
-        launchDate.text = milkyWaydataFrom.date_created
+        let date = String(milkyWaydataFrom.date_created.prefix(10))
+        launchDate.text = date
         title.text = milkyWaydataFrom.title
     }
     
@@ -33,3 +34,8 @@ class OpeningViewCollectionViewCell: UICollectionViewCell {
         backgdImage.downloadImage(from: url) 
     }
 }
+
+
+
+
+
