@@ -30,26 +30,19 @@
                         <color key="backgroundColor" red="0.97254901959999995" green="0.95294117649999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Centre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIa-Kx-0bt">
-                        <rect key="frame" x="20" y="222.5" width="68" height="17.5"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="68" id="JLR-In-Fdg"/>
-                        </constraints>
+                        <rect key="frame" x="20" y="222.5" width="45" height="17.5"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                         <color key="textColor" red="0.98485845327377319" green="0.96096521615982056" blue="0.9481310248374939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Launch Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xS-6j-9TU">
-                        <rect key="frame" x="96" y="222.5" width="122" height="17.5"/>
+                        <rect key="frame" x="85" y="222.5" width="86.5" height="17.5"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                         <color key="textColor" red="0.98485845327377319" green="0.96096521615982056" blue="0.9481310248374939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OP-8s-2Pe">
                         <rect key="frame" x="20" y="189" width="245" height="25"/>
-                        <constraints>
-                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="5Xd-it-rXd"/>
-                            <constraint firstAttribute="width" constant="245" id="yvt-Bh-zbU"/>
-                        </constraints>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
@@ -60,21 +53,15 @@
                 <constraint firstItem="3xS-6j-9TU" firstAttribute="top" secondItem="5OP-8s-2Pe" secondAttribute="bottom" constant="8.5" id="7CD-zd-m9b"/>
                 <constraint firstAttribute="bottom" secondItem="3xS-6j-9TU" secondAttribute="bottom" constant="20" id="9wn-3O-iLv"/>
                 <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="5OP-8s-2Pe" secondAttribute="trailing" constant="20" id="EKS-TT-tum"/>
-                <constraint firstAttribute="bottom" secondItem="ANB-on-Uck" secondAttribute="bottom" id="Fib-NU-Uq0"/>
-                <constraint firstAttribute="trailing" secondItem="ANB-on-Uck" secondAttribute="trailing" id="R3D-JM-DKc"/>
-                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="ANB-on-Uck" secondAttribute="bottom" id="Ywd-VI-j5n"/>
-                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="ANB-on-Uck" secondAttribute="trailing" id="dcV-gZ-o9I"/>
-                <constraint firstItem="5OP-8s-2Pe" firstAttribute="leading" secondItem="ANB-on-Uck" secondAttribute="trailing" constant="-265" id="fGE-6h-cew"/>
+                <constraint firstItem="ANB-on-Uck" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MUv-6x-L8O"/>
+                <constraint firstItem="ANB-on-Uck" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PBe-UO-yN8"/>
+                <constraint firstAttribute="bottom" secondItem="ANB-on-Uck" secondAttribute="bottom" id="SeC-OI-tgF"/>
+                <constraint firstItem="3xS-6j-9TU" firstAttribute="leading" secondItem="pIa-Kx-0bt" secondAttribute="trailing" constant="20" id="gns-9z-8o4"/>
                 <constraint firstAttribute="bottom" secondItem="pIa-Kx-0bt" secondAttribute="bottom" constant="20" id="hOC-I5-kGE"/>
                 <constraint firstItem="5OP-8s-2Pe" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="20" id="ipk-QB-5lu"/>
-                <constraint firstItem="3xS-6j-9TU" firstAttribute="leading" secondItem="pIa-Kx-0bt" secondAttribute="trailing" constant="8" symbolic="YES" id="l2F-mp-hdo"/>
-                <constraint firstItem="5OP-8s-2Pe" firstAttribute="leading" secondItem="ANB-on-Uck" secondAttribute="trailing" constant="-265" id="lSM-NX-SvU"/>
-                <constraint firstAttribute="trailing" secondItem="3xS-6j-9TU" secondAttribute="trailing" constant="67" id="oas-Cy-pE5"/>
-                <constraint firstItem="ANB-on-Uck" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="sEd-dn-BSP"/>
-                <constraint firstItem="ANB-on-Uck" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" id="sgJ-UG-VSp"/>
-                <constraint firstItem="ANB-on-Uck" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uE6-Dd-dta"/>
+                <constraint firstAttribute="trailing" secondItem="ANB-on-Uck" secondAttribute="trailing" id="mGA-mB-LG0"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3xS-6j-9TU" secondAttribute="trailing" constant="20" id="oas-Cy-pE5"/>
                 <constraint firstItem="pIa-Kx-0bt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="wbg-VS-spy"/>
-                <constraint firstItem="ANB-on-Uck" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="y13-pT-Z1m"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <connections>

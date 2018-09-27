@@ -30,6 +30,6 @@ class OpeningViewCollectionViewCell: UICollectionViewCell {
     
     func updateCellBackgdImage(with imageURL: Links) {
         let url = imageURL.href
-        backgdImage.downloadImage(from: url)
+        backgdImage.downloadImage(from: url) 
     }
 }
