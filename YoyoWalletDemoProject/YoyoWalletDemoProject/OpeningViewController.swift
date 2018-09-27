@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OpeningViewController: UIViewController {
+final class OpeningViewController: UIViewController {
     
     // MARK: Properties
     @IBOutlet private weak var collectionView: UICollectionView!
@@ -27,7 +27,7 @@ class OpeningViewController: UIViewController {
         let dataSource = APIManager()
         viewModel = OpeningViewViewModel(dataSource: dataSource)
         viewModel.delegate = self
-        viewModel.fatchMilkyWayData()
+        viewModel.fetchMilkyWayData()
     }
     
     func collectionViewSetUp() {
