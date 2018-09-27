@@ -26,7 +26,7 @@ class OpeningViewViewModel {
         self.dataSource = dataSource
     }
     
-    func fatchMilkyWayData() {
+    func fetchMilkyWayData() {
         
         dataSource.fetchMilkyWayData {[weak self] (result) in
             switch result {
