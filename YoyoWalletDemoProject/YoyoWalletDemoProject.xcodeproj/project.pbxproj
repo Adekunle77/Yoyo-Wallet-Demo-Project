@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B72FA215A6E3A0013E1DA /* AppDelegate.swift */; };
-		338B72FD215A6E3A0013E1DA /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B72FC215A6E3A0013E1DA /* OpeningView.swift */; };
+		338B72FD215A6E3A0013E1DA /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B72FC215A6E3A0013E1DA /* OpeningViewController.swift */; };
 		338B7300215A6E3A0013E1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B72FE215A6E3A0013E1DA /* Main.storyboard */; };
 		338B7302215A6E3A0013E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338B7301215A6E3A0013E1DA /* Assets.xcassets */; };
 		338B7305215A6E3A0013E1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B7303215A6E3A0013E1DA /* LaunchScreen.storyboard */; };
@@ -22,6 +22,8 @@
 		338B7338215A84220013E1DA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7337215A84220013E1DA /* APIManager.swift */; };
 		338B733A215A97E90013E1DA /* OpeningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7339215A97E90013E1DA /* OpeningViewModel.swift */; };
 		338B7344215B71990013E1DA /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7343215B71990013E1DA /* ImageExtension.swift */; };
+		338B7347215BA1830013E1DA /* DetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7346215BA1830013E1DA /* DetailViewViewModel.swift */; };
+		338B7349215BA1E70013E1DA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B7348215BA1E70013E1DA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +46,7 @@
 /* Begin PBXFileReference section */
 		338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoyoWalletDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B72FA215A6E3A0013E1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		338B72FC215A6E3A0013E1DA /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		338B72FC215A6E3A0013E1DA /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		338B72FF215A6E3A0013E1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		338B7301215A6E3A0013E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338B7304215A6E3A0013E1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,8 @@
 		338B7337215A84220013E1DA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		338B7339215A97E90013E1DA /* OpeningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewModel.swift; sourceTree = "<group>"; };
 		338B7343215B71990013E1DA /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		338B7346215BA1830013E1DA /* DetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewViewModel.swift; sourceTree = "<group>"; };
+		338B7348215BA1E70013E1DA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				338B72F9215A6E3A0013E1DA /* YoyoWalletDemoProject */,
+				338B7345215BA15C0013E1DA /* DetailView */,
 				338B7334215A7A420013E1DA /* Helpers */,
 				338B7331215A79E50013E1DA /* Entities */,
 				338B732E215A765C0013E1DA /* Services */,
@@ -117,7 +122,7 @@
 		338B72F9215A6E3A0013E1DA /* YoyoWalletDemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				338B72FC215A6E3A0013E1DA /* OpeningView.swift */,
+				338B72FC215A6E3A0013E1DA /* OpeningViewController.swift */,
 				338B7339215A97E90013E1DA /* OpeningViewModel.swift */,
 				338B72FE215A6E3A0013E1DA /* Main.storyboard */,
 				338B7329215A705A0013E1DA /* CollectionViewCell */,
@@ -187,6 +192,15 @@
 				338B7343215B71990013E1DA /* ImageExtension.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		338B7345215BA15C0013E1DA /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				338B7346215BA1830013E1DA /* DetailViewViewModel.swift */,
+				338B7348215BA1E70013E1DA /* DetailViewController.swift */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,9 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338B7349215BA1E70013E1DA /* DetailViewController.swift in Sources */,
 				338B7336215A7A5F0013E1DA /* Results.swift in Sources */,
-				338B72FD215A6E3A0013E1DA /* OpeningView.swift in Sources */,
+				338B72FD215A6E3A0013E1DA /* OpeningViewController.swift in Sources */,
 				338B72FB215A6E3A0013E1DA /* AppDelegate.swift in Sources */,
+				338B7347215BA1830013E1DA /* DetailViewViewModel.swift in Sources */,
 				338B7344215B71990013E1DA /* ImageExtension.swift in Sources */,
 				338B7333215A7A000013E1DA /* MilkyWay.swift in Sources */,
 				338B7330215A77110013E1DA /* DataSource.swift in Sources */,

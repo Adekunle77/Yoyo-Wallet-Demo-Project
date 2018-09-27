@@ -18,7 +18,7 @@ struct Items: Decodable {
 }
 
 struct MilkyWayData: Decodable {
-    var href: String 
+    var href: String
     var data: [MilkyWayInfo]
     var links: [Links]
     
@@ -26,9 +26,10 @@ struct MilkyWayData: Decodable {
 
 struct MilkyWayInfo: Decodable {
     var title: String
+    var nasa_id: String
     var center: String
     var date_created: String
-    
+    var description: String
 }
 
 struct Links: Decodable {

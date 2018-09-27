@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OpeningView: UIViewController {
+class OpeningViewController: UIViewController {
     
     // MARK: Properties
     @IBOutlet private weak var collectionView: UICollectionView!
@@ -33,11 +33,12 @@ class OpeningView: UIViewController {
     func collectionViewSetUp() {
         let nib = UINib(nibName: "OpeningViewCollectionViewCell", bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: reuseIdentifier)
+//        self.navigationController?.navigationBar.alpha = 0
     }
 }
 
     // MARK: OpeningView 
-extension OpeningView: ViewModelDelegate {
+extension OpeningViewController: ViewModelDelegate {
     func modelDidUpdateData() {
         self.collectionView.reloadData()
     }
@@ -49,9 +50,8 @@ extension OpeningView: ViewModelDelegate {
     
 }
 
-
     // MARK: CollectionView Extension
-extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension OpeningViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -75,18 +75,27 @@ extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UIC
         cell.updateCell(with: updateCell)
         
         let updateCellBackgdImage = updateCellsBacKGdImage(with: indexPath)
-        print(updateCellBackgdImage.href)
         cell.updateCellBackgdImage(with: updateCellBackgdImage)
         
-
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let milkyWay = viewModel.arrayOfMilkyWayInfo[indexPath.item]
+       
+        presentDetailView(withID: milkyWay)
+    }
+    
+    func presentDetailView(withID: MilkyWayData) {
+        
+        self.performSegue(withIdentifier: "detailViewSegue", sender: withID)
     }
     
     func updateCells(with: IndexPath) -> MilkyWayInfo {
         let milkyWayInfoFromAPI = viewModel.arrayOfMilkyWayInfo[with.item]
         let milkyWayInfos = milkyWayInfoFromAPI.data
-        let milkywayInfo = milkyWayInfos[0]
-        return milkywayInfo
+        let milkyWayInfo = milkyWayInfos[0]
+        return milkyWayInfo
     }
     
     func updateCellsBacKGdImage(with: IndexPath) -> Links {
@@ -96,3 +105,15 @@ extension OpeningView: UICollectionViewDelegate, UICollectionViewDataSource, UIC
         return milkyWayImage[0]
     }
 }
+
+//MARK: Extension for seague
+
+extension OpeningViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender anyObject: Any?) {
+        if let milkyWayDetails = segue.destination as? DetailViewController,
+            let milkyWayID = anyObject as? MilkyWayData {
+            milkyWayDetails.milkyWay = milkyWayID
+        }
+    }
+}
+
