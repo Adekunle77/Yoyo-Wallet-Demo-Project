@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  YoyoWalletDemoProject
+//  MilkyWayDemoProject
 //
 //  Created by Ade Adegoke on 26/09/2018.
 //  Copyright © 2018 AKA. All rights reserved.

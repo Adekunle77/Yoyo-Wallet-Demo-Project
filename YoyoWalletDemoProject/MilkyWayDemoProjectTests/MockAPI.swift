@@ -1,13 +1,13 @@
 //
 //  MockAPI.swift
-//  YoyoWalletDemoProjectTests
+//  MilkyWayDemoProjectTests
 //
 //  Created by Ade Adegoke on 27/09/2018.
 //  Copyright © 2018 AKA. All rights reserved.
 //
 
 import Foundation
-@testable import YoyoWalletDemoProject
+@testable import MilkyWayDemoProject
 
 class MockAPI: API {
     

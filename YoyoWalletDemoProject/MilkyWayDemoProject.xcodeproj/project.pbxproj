@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330FD9BB2178E30F00AD055B /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FD9BA2178E30F00AD055B /* CellViewModel.swift */; };
+		330FD9BF217A064A00AD055B /* MilkyWayDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FD9BC217A064A00AD055B /* MilkyWayDemoProjectTests.swift */; };
+		330FD9C0217A064A00AD055B /* MilkyWayDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330FD9BE217A064A00AD055B /* MilkyWayDemoProjectUITests.swift */; };
 		3331C7B4215D0B9C00801917 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3331C7B3215D0B9C00801917 /* AlertView.swift */; };
 		337C3D40215CBE6D00DF8A01 /* OpeningViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C3D3F215CBE6D00DF8A01 /* OpeningViewModelTest.swift */; };
 		337C3D42215CC1EF00DF8A01 /* MockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C3D41215CC1EF00DF8A01 /* MockAPI.swift */; };
@@ -15,8 +18,6 @@
 		338B7300215A6E3A0013E1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B72FE215A6E3A0013E1DA /* Main.storyboard */; };
 		338B7302215A6E3A0013E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338B7301215A6E3A0013E1DA /* Assets.xcassets */; };
 		338B7305215A6E3A0013E1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338B7303215A6E3A0013E1DA /* LaunchScreen.storyboard */; };
-		338B7310215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B730F215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift */; };
-		338B731B215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B731A215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift */; };
 		338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */; };
 		338B732D215A708F0013E1DA /* OpeningViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */; };
 		338B7330215A77110013E1DA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B732F215A77110013E1DA /* DataSource.swift */; };
@@ -46,22 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330FD9BA2178E30F00AD055B /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		330FD9BC217A064A00AD055B /* MilkyWayDemoProjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilkyWayDemoProjectTests.swift; sourceTree = "<group>"; };
+		330FD9BE217A064A00AD055B /* MilkyWayDemoProjectUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MilkyWayDemoProjectUITests.swift; sourceTree = "<group>"; };
 		3331C7B3215D0B9C00801917 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		337C3D3F215CBE6D00DF8A01 /* OpeningViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewModelTest.swift; sourceTree = "<group>"; };
 		337C3D41215CC1EF00DF8A01 /* MockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPI.swift; sourceTree = "<group>"; };
-		338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoyoWalletDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		338B72F7215A6E3A0013E1DA /* MilkyWayDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkyWayDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B72FA215A6E3A0013E1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338B72FC215A6E3A0013E1DA /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		338B72FF215A6E3A0013E1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		338B7301215A6E3A0013E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338B7304215A6E3A0013E1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338B7306215A6E3A0013E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		338B730B215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoyoWalletDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		338B730F215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoyoWalletDemoProjectTests.swift; sourceTree = "<group>"; };
+		338B730B215A6E3A0013E1DA /* MilkyWayDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkyWayDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B7311215A6E3A0013E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		338B7316215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoyoWalletDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		338B731A215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoyoWalletDemoProjectUITests.swift; sourceTree = "<group>"; };
-		338B731C215A6E3A0013E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338B7316215A6E3A0013E1DA /* MilkyWayDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkyWayDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpeningViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		338B732F215A77110013E1DA /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
@@ -98,17 +99,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		330FD9BD217A064A00AD055B /* MilkyWayDemoProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				330FD9BE217A064A00AD055B /* MilkyWayDemoProjectUITests.swift */,
+				330FD9BC217A064A00AD055B /* MilkyWayDemoProjectTests.swift */,
+			);
+			path = MilkyWayDemoProjectUITests;
+			sourceTree = "<group>";
+		};
 		338B72EE215A6E3A0013E1DA = {
 			isa = PBXGroup;
 			children = (
-				338B72F9215A6E3A0013E1DA /* YoyoWalletDemoProject */,
+				338B72F9215A6E3A0013E1DA /* MilkyWayDemoProject */,
 				338B7345215BA15C0013E1DA /* DetailView */,
 				338B7334215A7A420013E1DA /* Helpers */,
 				338B7331215A79E50013E1DA /* Entities */,
 				338B732E215A765C0013E1DA /* Services */,
 				338B7328215A70010013E1DA /* Supporting Files */,
-				338B730E215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */,
-				338B7319215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */,
+				338B730E215A6E3A0013E1DA /* MilkyWayDemoProjectTests */,
 				338B72F8215A6E3A0013E1DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,14 +125,14 @@
 		338B72F8215A6E3A0013E1DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */,
-				338B730B215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.xctest */,
-				338B7316215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.xctest */,
+				338B72F7215A6E3A0013E1DA /* MilkyWayDemoProject.app */,
+				338B730B215A6E3A0013E1DA /* MilkyWayDemoProjectTests.xctest */,
+				338B7316215A6E3A0013E1DA /* MilkyWayDemoProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		338B72F9215A6E3A0013E1DA /* YoyoWalletDemoProject */ = {
+		338B72F9215A6E3A0013E1DA /* MilkyWayDemoProject */ = {
 			isa = PBXGroup;
 			children = (
 				338B72FC215A6E3A0013E1DA /* OpeningViewController.swift */,
@@ -131,27 +140,18 @@
 				338B72FE215A6E3A0013E1DA /* Main.storyboard */,
 				338B7329215A705A0013E1DA /* CollectionViewCell */,
 			);
-			path = YoyoWalletDemoProject;
+			path = MilkyWayDemoProject;
 			sourceTree = "<group>";
 		};
-		338B730E215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */ = {
+		338B730E215A6E3A0013E1DA /* MilkyWayDemoProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				337C3D3F215CBE6D00DF8A01 /* OpeningViewModelTest.swift */,
 				337C3D41215CC1EF00DF8A01 /* MockAPI.swift */,
-				338B730F215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift */,
+				330FD9BD217A064A00AD055B /* MilkyWayDemoProjectUITests */,
 				338B7311215A6E3A0013E1DA /* Info.plist */,
 			);
-			path = YoyoWalletDemoProjectTests;
-			sourceTree = "<group>";
-		};
-		338B7319215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				338B731A215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift */,
-				338B731C215A6E3A0013E1DA /* Info.plist */,
-			);
-			path = YoyoWalletDemoProjectUITests;
+			path = MilkyWayDemoProjectTests;
 			sourceTree = "<group>";
 		};
 		338B7328215A70010013E1DA /* Supporting Files */ = {
@@ -169,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				338B732A215A708F0013E1DA /* OpeningViewCollectionViewCell.swift */,
+				330FD9BA2178E30F00AD055B /* CellViewModel.swift */,
 				338B732B215A708F0013E1DA /* OpeningViewCollectionViewCell.xib */,
 			);
 			path = CollectionViewCell;
@@ -212,9 +213,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */ = {
+		338B72F6215A6E3A0013E1DA /* MilkyWayDemoProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 338B731F215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProject" */;
+			buildConfigurationList = 338B731F215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "MilkyWayDemoProject" */;
 			buildPhases = (
 				338B72F3215A6E3A0013E1DA /* Sources */,
 				338B72F4215A6E3A0013E1DA /* Frameworks */,
@@ -224,14 +225,14 @@
 			);
 			dependencies = (
 			);
-			name = YoyoWalletDemoProject;
+			name = MilkyWayDemoProject;
 			productName = YoyoWalletDemoProject;
-			productReference = 338B72F7215A6E3A0013E1DA /* YoyoWalletDemoProject.app */;
+			productReference = 338B72F7215A6E3A0013E1DA /* MilkyWayDemoProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		338B730A215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */ = {
+		338B730A215A6E3A0013E1DA /* MilkyWayDemoProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 338B7322215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectTests" */;
+			buildConfigurationList = 338B7322215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "MilkyWayDemoProjectTests" */;
 			buildPhases = (
 				338B7307215A6E3A0013E1DA /* Sources */,
 				338B7308215A6E3A0013E1DA /* Frameworks */,
@@ -242,14 +243,14 @@
 			dependencies = (
 				338B730D215A6E3A0013E1DA /* PBXTargetDependency */,
 			);
-			name = YoyoWalletDemoProjectTests;
+			name = MilkyWayDemoProjectTests;
 			productName = YoyoWalletDemoProjectTests;
-			productReference = 338B730B215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.xctest */;
+			productReference = 338B730B215A6E3A0013E1DA /* MilkyWayDemoProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		338B7315215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */ = {
+		338B7315215A6E3A0013E1DA /* MilkyWayDemoProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 338B7325215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectUITests" */;
+			buildConfigurationList = 338B7325215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "MilkyWayDemoProjectUITests" */;
 			buildPhases = (
 				338B7312215A6E3A0013E1DA /* Sources */,
 				338B7313215A6E3A0013E1DA /* Frameworks */,
@@ -260,9 +261,9 @@
 			dependencies = (
 				338B7318215A6E3A0013E1DA /* PBXTargetDependency */,
 			);
-			name = YoyoWalletDemoProjectUITests;
+			name = MilkyWayDemoProjectUITests;
 			productName = YoyoWalletDemoProjectUITests;
-			productReference = 338B7316215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.xctest */;
+			productReference = 338B7316215A6E3A0013E1DA /* MilkyWayDemoProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 338B72F2215A6E3A0013E1DA /* Build configuration list for PBXProject "YoyoWalletDemoProject" */;
+			buildConfigurationList = 338B72F2215A6E3A0013E1DA /* Build configuration list for PBXProject "MilkyWayDemoProject" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -304,9 +305,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */,
-				338B730A215A6E3A0013E1DA /* YoyoWalletDemoProjectTests */,
-				338B7315215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests */,
+				338B72F6215A6E3A0013E1DA /* MilkyWayDemoProject */,
+				338B730A215A6E3A0013E1DA /* MilkyWayDemoProjectTests */,
+				338B7315215A6E3A0013E1DA /* MilkyWayDemoProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,6 +355,7 @@
 				338B7330215A77110013E1DA /* DataSource.swift in Sources */,
 				338B733A215A97E90013E1DA /* OpeningViewModel.swift in Sources */,
 				338B732C215A708F0013E1DA /* OpeningViewCollectionViewCell.swift in Sources */,
+				330FD9BB2178E30F00AD055B /* CellViewModel.swift in Sources */,
 				338B7338215A84220013E1DA /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,9 +364,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338B7310215A6E3A0013E1DA /* YoyoWalletDemoProjectTests.swift in Sources */,
 				337C3D42215CC1EF00DF8A01 /* MockAPI.swift in Sources */,
+				330FD9BF217A064A00AD055B /* MilkyWayDemoProjectTests.swift in Sources */,
 				337C3D40215CBE6D00DF8A01 /* OpeningViewModelTest.swift in Sources */,
+				330FD9C0217A064A00AD055B /* MilkyWayDemoProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338B731B215A6E3A0013E1DA /* YoyoWalletDemoProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,12 +383,12 @@
 /* Begin PBXTargetDependency section */
 		338B730D215A6E3A0013E1DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */;
+			target = 338B72F6215A6E3A0013E1DA /* MilkyWayDemoProject */;
 			targetProxy = 338B730C215A6E3A0013E1DA /* PBXContainerItemProxy */;
 		};
 		338B7318215A6E3A0013E1DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 338B72F6215A6E3A0013E1DA /* YoyoWalletDemoProject */;
+			target = 338B72F6215A6E3A0013E1DA /* MilkyWayDemoProject */;
 			targetProxy = 338B7317215A6E3A0013E1DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,6 +444,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -499,6 +503,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -526,7 +531,7 @@
 				DEVELOPMENT_TEAM = K7VRVBX4U9;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProject;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.MilkyWayDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,7 +546,7 @@
 				DEVELOPMENT_TEAM = K7VRVBX4U9;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProject;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.MilkyWayDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,13 +560,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K7VRVBX4U9;
-				INFOPLIST_FILE = YoyoWalletDemoProjectTests/Info.plist;
+				INFOPLIST_FILE = MilkyWayDemoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoyoWalletDemoProject.app/YoyoWalletDemoProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkyWayDemoProject.app/MilkyWayDemoProject";
 			};
 			name = Debug;
 		};
@@ -572,13 +577,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K7VRVBX4U9;
-				INFOPLIST_FILE = YoyoWalletDemoProjectTests/Info.plist;
+				INFOPLIST_FILE = MilkyWayDemoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoyoWalletDemoProject.app/YoyoWalletDemoProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkyWayDemoProject.app/MilkyWayDemoProject";
 			};
 			name = Release;
 		};
@@ -588,13 +593,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K7VRVBX4U9;
-				INFOPLIST_FILE = YoyoWalletDemoProjectUITests/Info.plist;
+				INFOPLIST_FILE = MilkyWayDemoProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.MilkyWayDemoProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YoyoWalletDemoProject;
+				TEST_TARGET_NAME = MilkyWayDemoProject;
 			};
 			name = Debug;
 		};
@@ -604,20 +609,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K7VRVBX4U9;
-				INFOPLIST_FILE = YoyoWalletDemoProjectUITests/Info.plist;
+				INFOPLIST_FILE = MilkyWayDemoProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.YoyoWalletDemoProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.akunle.MilkyWayDemoProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = YoyoWalletDemoProject;
+				TEST_TARGET_NAME = MilkyWayDemoProject;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		338B72F2215A6E3A0013E1DA /* Build configuration list for PBXProject "YoyoWalletDemoProject" */ = {
+		338B72F2215A6E3A0013E1DA /* Build configuration list for PBXProject "MilkyWayDemoProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				338B731D215A6E3A0013E1DA /* Debug */,
@@ -626,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		338B731F215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProject" */ = {
+		338B731F215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "MilkyWayDemoProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				338B7320215A6E3A0013E1DA /* Debug */,
@@ -635,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		338B7322215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectTests" */ = {
+		338B7322215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "MilkyWayDemoProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				338B7323215A6E3A0013E1DA /* Debug */,
@@ -644,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		338B7325215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "YoyoWalletDemoProjectUITests" */ = {
+		338B7325215A6E3A0013E1DA /* Build configuration list for PBXNativeTarget "MilkyWayDemoProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				338B7326215A6E3A0013E1DA /* Debug */,

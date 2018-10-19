@@ -1,13 +1,13 @@
 //
 //  OpeningViewModelTest.swift
-//  YoyoWalletDemoProjectTests
+//  MilkyWayDemoProjectTests
 //
 //  Created by Ade Adegoke on 27/09/2018.
 //  Copyright © 2018 AKA. All rights reserved.
 //
 
 import XCTest
-@testable import YoyoWalletDemoProject
+@testable import MilkyWayDemoProject
 
 class OpeningViewModelTest: XCTestCase {
     

@@ -1,6 +1,6 @@
 //
-//  YoyoWalletDemoProjectUITests.swift
-//  YoyoWalletDemoProjectUITests
+//  MilkyWayDemoProjectUITests.swift
+//  MilkyWayDemoProjectUITests
 //
 //  Created by Ade Adegoke on 25/09/2018.
 //  Copyright © 2018 AKA. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class YoyoWalletDemoProjectUITests: XCTestCase {
+class MilkyWayDemoProjectUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

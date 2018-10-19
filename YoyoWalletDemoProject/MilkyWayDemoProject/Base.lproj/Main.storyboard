@@ -220,6 +220,7 @@
         <image name="arrow" width="68" height="68"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="aEv-iW-uaY"/>
         <segue reference="8ZH-3e-mhX"/>
     </inferredMetricsTieBreakers>
 </document>
